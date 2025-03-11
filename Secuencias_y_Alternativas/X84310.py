@@ -9,3 +9,9 @@ def grade(s):
         return 'excel.lent'
     else:
         return 'MH'
+
+with open("mi_fichero.txt", "w") as f:
+    f.write("Primera línea del archivo.")
+
+
+
